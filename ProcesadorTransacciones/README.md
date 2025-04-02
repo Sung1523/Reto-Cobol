@@ -16,7 +16,7 @@ Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en **J
 ## 🛠️ Instrucciones de Ejecución
 ### 1️⃣ Clonar el Repositorio
 ```bash
-git clone https://github.com/Sung1523/ProcesadorTransacciones.git
+git clone https://github.com/Sung1523/Reto-Cobol.git
 cd ProcesadorTransacciones
 ```
 
