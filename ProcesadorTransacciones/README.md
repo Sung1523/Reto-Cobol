@@ -77,6 +77,6 @@ void testBalanceFinal() {
 Este README proporciona una guía clara sobre el proyecto, su ejecución y su estructura. ¡Si tienes alguna duda o sugerencia, no dudes en contribuir! 🚀}
 
 ## Contacto
-Correo: Samantha.Ramos@pucp.edu.pe
-Telefono: 993801460
+**Correo: Samantha.Ramos@pucp.edu.pe
+**Telefono: 993801460
 
