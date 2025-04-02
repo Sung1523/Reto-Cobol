@@ -3,6 +3,7 @@
 ## 📌 Introducción
 Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en **Java**, que procesa un archivo CSV con transacciones bancarias y genera un reporte con la siguiente información:
 
+
 1. **Balance Final**: Suma de los montos de transacciones de tipo "Crédito" menos la suma de los montos de tipo "Débito".
 2. **Transacción de Mayor Monto**: Identificación del ID y monto de la transacción con el valor más alto.
 3. **Conteo de Transacciones**: Cantidad total de transacciones de tipo "Crédito" y "Débito".
