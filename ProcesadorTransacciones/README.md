@@ -1,6 +1,6 @@
 # Procesador de Transacciones Bancarias (CLI)
 
-## 📌 Introducción
+## Introducción
 Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en **Java**, que procesa un archivo CSV con transacciones bancarias y genera un reporte con la siguiente información:
 
 
@@ -8,36 +8,40 @@ Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en **J
 2. **Transacción de Mayor Monto**: Identificación del ID y monto de la transacción con el valor más alto.
 3. **Conteo de Transacciones**: Cantidad total de transacciones de tipo "Crédito" y "Débito".
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **Java**
 - **Maven** (para gestión de dependencias)
 - **JUnit 5** (para pruebas unitarias)
 - **CSV Parser** para manejo de archivos CSV
 
-## 🛠️ Instrucciones de Ejecución
-### 1️⃣ Clonar el Repositorio
+##  Instrucciones de Ejecución
+### Clonar el Repositorio
 ```bash
 git clone https://github.com/Sung1523/Reto-Cobol.git
 cd ProcesadorTransacciones
 ```
 
-### 2️⃣ Compilar el Proyecto con Maven
+### Compilar el Proyecto con Maven
 ```bash
 mvn clean install
 ```
 
-### 3️⃣ Ejecutar la Aplicación
+### Ejecutar la Aplicación
 ```bash
 java -jar target/ProcesadorTransacciones.jar src/main/resources/transactions.csv
 ```
+### Ejecutar test
+```bash
+mvn test -Dtest=ProcesadorCSVTest#testLeerCSV
+```
 
-## 🔍 Enfoque y Solución
+## Enfoque y Solución
 El programa sigue una estructura modular dividiendo las responsabilidades en:
 - **Lectura del CSV**: Se utiliza `ProcesadorCSV` para leer las transacciones desde un archivo CSV.
 - **Procesamiento de Datos**: Se implementa `ReporteTransacciones` para calcular el balance, el conteo de transacciones y la mayor transacción.
 - **Manejo de Casos Especiales**: Se agregó validación para cuando la lista de transacciones está vacía, mostrando un mensaje claro en la CLI.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 ```
 ProcesadorTransacciones
 │── src
@@ -58,7 +62,7 @@ ProcesadorTransacciones
 │── transactions.csv # Archivo de ejemplo con transacciones
 ```
 
-## 🧪 Documentación y Calidad del Código
+## Documentación y Calidad del Código
 El código está documentado con comentarios explicativos en los puntos clave del procesamiento de datos. Además, se han implementado pruebas unitarias con JUnit para validar el correcto funcionamiento de la aplicación.
 
 ### Ejemplo de Pruebas Unitarias
@@ -74,7 +78,7 @@ void testBalanceFinal() {
 }
 ```
 
-Este README proporciona una guía clara sobre el proyecto, su ejecución y su estructura. ¡Si tienes alguna duda o sugerencia, no dudes en contribuir! 🚀}
+Este README proporciona una guía clara sobre el proyecto, su ejecución y su estructura. ¡Si tienes alguna duda o sugerencia, no dudes en contribuir!
 
 ## Contacto
 - Correo: samantha.ramos@pucp.edu.pe.
