@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.reto.ProcesadorCSVTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.reto.ProcesadorCSVTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones\target\test-classes;C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones\target\classes;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\saman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\saman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\test-classes;C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\classes;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\saman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\saman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="java.vm.vendor" value="OpenLogic"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.9.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\saman\AppData\Local\Temp\surefire3943982883315805038\surefirebooter-20250402144423279_3.jar C:\Users\saman\AppData\Local\Temp\surefire3943982883315805038 2025-04-02T14-44-23_156-jvmRun1 surefire-20250402144423279_1tmp surefire_0-20250402144423279_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\saman\AppData\Local\Temp\surefire2270532647588874031\surefirebooter-20250430112538481_3.jar C:\Users\saman\AppData\Local\Temp\surefire2270532647588874031 2025-04-30T11-25-38_369-jvmRun1 surefire-20250430112538481_1tmp surefire_0-20250430112538481_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones\target\test-classes;C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones\target\classes;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\saman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\saman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\test-classes;C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\classes;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\saman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\saman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\saman"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="C:\Program Files\OpenLogic\jdk-17.0.9.9-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones"/>
+    <property name="basedir" value="C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\saman\AppData\Local\Temp\surefire3943982883315805038\surefirebooter-20250402144423279_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\saman\AppData\Local\Temp\surefire2270532647588874031\surefirebooter-20250430112538481_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9-adhoc..jdk17u"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
     <property name="java.io.tmpdir" value="C:\Users\saman\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.9"/>
-    <property name="user.dir" value="C:\Users\saman\OneDrive\Escritorio\Reto-Cobol\ProcesadorTransacciones"/>
+    <property name="user.dir" value="C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testLeerCSV" classname="com.reto.ProcesadorCSVTest" time="0.031"/>
+  <testcase name="testLeerCSV" classname="com.reto.ProcesadorCSVTest" time="0.024"/>
 </testsuite>

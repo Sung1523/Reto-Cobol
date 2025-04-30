@@ -8,7 +8,8 @@ public class ProcesadorCSVTest {
 
     @Test
     void testLeerCSV() {
-        List<Transaccion> transacciones = ProcesadorCSV.leerCSV("src/main/resources/transactions_large.csv");
+        //List<Transaccion> transacciones = ProcesadorCSV.leerCSV("src/main/resources/transactions_large.csv");
+        List<Transaccion> transacciones = ProcesadorCSV.leerCSV("src/main/resources/data.csv");
         // Verifica que no está vacío
         assertFalse(transacciones.isEmpty(), "La lista de transacciones no debe estar vacía.");
 
@@ -19,7 +20,7 @@ public class ProcesadorCSVTest {
         Transaccion transaccion = transacciones.get(0);
         assertTrue(transaccion.getMonto() > 0, "El monto de la transacción debe ser mayor que 0.");
         assertTrue(transaccion.getId() > 0, "El ID de la transacción debe ser mayor que 0.");
-        assertTrue(transaccion.getTipo().equals("Crédito") || transaccion.getTipo().equals("Débito"), 
-                   "El tipo de transacción debe ser 'Crédito' o 'Débito'.");
+        assertTrue(transaccion.getTipo().equals("Crédito") || transaccion.getTipo().equals("Débito"),
+        "Tipo esperado: 'Crédito' o 'Débito'. Encontrado: '" + transaccion.getTipo() + "'");
     }
 }
