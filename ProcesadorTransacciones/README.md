@@ -28,7 +28,7 @@ mvn clean install
 
 ### Ejecutar la Aplicación
 ```bash
-java -jar target/ProcesadorTransacciones.jar src/main/resources/transactions.csv
+java -jar target/ProcesadorTransacciones-1.0-SNAPSHOT.jar src/main/resources/data.csv
 ```
 ### Ejecutar test
 ```bash
