@@ -9,7 +9,7 @@ Este proyecto es una aplicación de línea de comandos (CLI) desarrollada en **J
 3. **Conteo de Transacciones**: Cantidad total de transacciones de tipo "Crédito" y "Débito".
 
 ## 🚀 Tecnologías Utilizadas
-- **Java 17+**
+- **Java**
 - **Maven** (para gestión de dependencias)
 - **JUnit 5** (para pruebas unitarias)
 - **CSV Parser** para manejo de archivos CSV
