@@ -25,8 +25,6 @@ public class Main {
                 System.out.println("Balance final: 0.00");
             } else {
                 ReporteTransacciones.generarReporte(transacciones);
-                double balanceFinal = ReporteTransacciones.calcularBalance(transacciones);
-                System.out.println("Balance final de las transacciones: " + balanceFinal);
             }        
     
         } 

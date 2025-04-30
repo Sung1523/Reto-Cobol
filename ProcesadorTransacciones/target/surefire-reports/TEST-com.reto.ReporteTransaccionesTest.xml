@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.reto.ReporteTransaccionesTest" time="0.012" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.reto.ReporteTransaccionesTest" time="0.016" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.9.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\saman\AppData\Local\Temp\surefire7984981862850598179\surefirebooter-20250430113137522_3.jar C:\Users\saman\AppData\Local\Temp\surefire7984981862850598179 2025-04-30T11-31-37_424-jvmRun1 surefire-20250430113137522_1tmp surefire_0-20250430113137522_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\saman\AppData\Local\Temp\surefire16387421288177790055\surefirebooter-20250430115650903_3.jar C:\Users\saman\AppData\Local\Temp\surefire16387421288177790055 2025-04-30T11-56-50_788-jvmRun1 surefire-20250430115650903_1tmp surefire_0-20250430115650903_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\test-classes;C:\Users\saman\OneDrive\Escritorio\Reto cobol 2\Reto-Cobol\ProcesadorTransacciones\target\classes;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\saman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\saman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\saman\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\saman\AppData\Local\Temp\surefire7984981862850598179\surefirebooter-20250430113137522_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\saman\AppData\Local\Temp\surefire16387421288177790055\surefirebooter-20250430115650903_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9-adhoc..jdk17u"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testBalanceConSoloDebitos" classname="com.reto.ReporteTransaccionesTest" time="0.004"/>
+  <testcase name="testBalanceConSoloDebitos" classname="com.reto.ReporteTransaccionesTest" time="0.007"/>
   <testcase name="testBalanceFinal" classname="com.reto.ReporteTransaccionesTest" time="0.001"/>
   <testcase name="testBalanceConSaldoNegativo" classname="com.reto.ReporteTransaccionesTest" time="0.001"/>
-  <testcase name="testBalanceConSoloCreditos" classname="com.reto.ReporteTransaccionesTest" time="0.0"/>
+  <testcase name="testBalanceConSoloCreditos" classname="com.reto.ReporteTransaccionesTest" time="0.001"/>
 </testsuite>
